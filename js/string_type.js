@@ -49,10 +49,23 @@ console.log(first_str[12])
 
 /*compare strings, comparisons are done alphanumerically.
 thereforme, letters are compared based on their position
-in the alphabet A-Z*/
+in the alphabet A-Za-z-> ASCII condification*/
 
 var characterA = "A"
 var characterB = "B"
 console.log(characterA<characterB)
+// == compares value //
+console.log("8" == 8);
+/* 
+===
+compares first type then value
+*/
+console.log("8" === 8);
 
+//Comparing strings of text
+//Colombia < argentina in ASCII
+console.log(`Colombia`.toUpperCase() < `argentina`.toUpperCase());
+
+// scape values
+console.log("Hllo \"\'\\");
 
