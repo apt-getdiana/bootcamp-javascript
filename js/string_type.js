@@ -44,5 +44,15 @@ console.log(first_str.length)
 /* find character in given position
 Note: Position starts in zero */
 console.log(first_str.charAt(12))
+console.log(first_str[12])
+
+
+/*compare strings, comparisons are done alphanumerically.
+thereforme, letters are compared based on their position
+in the alphabet A-Z*/
+
+var characterA = "A"
+var characterB = "B"
+console.log(characterA<characterB)
 
 
