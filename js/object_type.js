@@ -15,7 +15,7 @@ var person2 = {
 
 //First way to extract property
 //object['property']
-console.log(person'name']);
+console.log(person['name']);
 console.log(person2['name']);
 
 //Second way
