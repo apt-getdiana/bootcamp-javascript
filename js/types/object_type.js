@@ -88,7 +88,7 @@ var truck2 = truck;
 console.log(truck == truck2);
 console.log(truck === truck2);
 
-//Using los console.log 
+//Using console.log 
 //console.log(variable+ variable2);
 //console.log(variable, variable2);
 /*console.log("object: "+ person);
