@@ -37,5 +37,30 @@ var two_dim3x3 = [[0,1,2], [3,4,5], [6,7,8]];
 /*
 sum diagonals
 on console:
--> sum of diagonalas is <sum_diagonals>
+-> sum of diagonals is <sum_diagonals>
 */
+
+var sum = 0;
+for(var first_iterator = 0; first_iterator<=two_dim3x3 .length-1; first_iterator++){
+    var temp_matrix = two_dim3x3 [first_iterator];
+    for(var second_iterator = 0; second_iterator<=temp_matrix.length-1; second_iterator++){
+        if(first_iterator==second_iterator){
+            sum= sum+two_dim3x3 [first_iterator][second_iterator];
+        }
+    }
+    for(var third_iterator = temp_matrix.length-1; third_iterator>=0; third_iterator--){
+        if(first_iterator+third_iterator==two_dim3x3 .length-1){
+            sum= sum+two_dim3x3 [first_iterator][third_iterator];
+        } 
+      }
+} 
+ console.log(sum);
+ 
+
+ //Quick solution
+ var sum = 0;
+for(var iterator = 0; iterator <= two_dim3x3.length-1; iterator++) {
+    sum += two_dim3x3[iterator][iterator];
+    sum += two_dim3x3[iterator][(two_dim3x3.length-1) - iterator];
+}
+console.log(sum);
