@@ -64,3 +64,19 @@ for(var iterator = 0; iterator <= two_dim3x3.length-1; iterator++) {
     sum += two_dim3x3[iterator][(two_dim3x3.length-1) - iterator];
 }
 console.log(sum);
+
+
+
+// iterate over objects
+
+var person = {
+    name: 'Diana',
+    lastname: 'Garcia',
+    age: 24
+};
+
+for (const property in person){
+    console.log(`${property} has value of ${person[property]})
+}
+
+

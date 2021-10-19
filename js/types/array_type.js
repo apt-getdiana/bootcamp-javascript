@@ -41,3 +41,6 @@ console.log(array.indexOf('does not exist'));
 //Syntax -> var nuevoArray = array_name.slice();
 var copy_array = array.slice();
 console.log('array copy: ', copy_array);
+
+
+

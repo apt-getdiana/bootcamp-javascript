@@ -5,3 +5,4 @@ console.log(typeof null);
 
 var variable = null;
 console.log(variable);
+

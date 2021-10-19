@@ -39,7 +39,7 @@ person.phone = 3223073483;
 console.log(person['phone']);
 console.log(person.email, person.phone);
 
-//All data types can be used in objetc
+//All data types can be used in object
 var information = {
     profile: {
         name: "Diana",
@@ -88,12 +88,14 @@ var truck2 = truck;
 console.log(truck == truck2);
 console.log(truck === truck2);
 
-//Using console.log 
-//console.log(variable+ variable2);
-//console.log(variable, variable2);
-/*console.log("object: "+ person);
+Using console.log 
+console.log(variable+ variable2);
+console.log(variable, variable2);
+console.log("object: "+ person);
 console.log("object: ", person);
 console.log("number: "+ 8);
 console.log("number: ", 8);
 console.log("vector: "+ [1,2,3,4,5]);
-console.log("vector: ", [1,2,3,4,5]);*/
+console.log("vector: ", [1,2,3,4,5]);
+
+
